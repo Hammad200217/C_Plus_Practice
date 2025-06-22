@@ -7,10 +7,7 @@ int size = 5;
 
  for(int i=0; i<size; i++) 
  {
-    if(nums[i]< smallest )
-    {
-        smallest=nums[i];
-    }
+   smallest= min(nums[i],smallest)
  }
 cout<< "Smallest value is "<< smallest<< endl;
 

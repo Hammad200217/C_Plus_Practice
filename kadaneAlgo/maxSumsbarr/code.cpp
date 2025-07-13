@@ -3,8 +3,8 @@
 using namespace std;
 
 int main (){
-int n = 5; // Size of the array
-int arr[5]= {1, 2, 3, 4, 5};
+int n = 11; // Size of the array
+int arr[11]= {1, 2, 3, 4, 5, 7, -1, 2, 3, -5, 4};
 
 int maxSum = INT_MIN;
 for(int st=0; st<n; st++){

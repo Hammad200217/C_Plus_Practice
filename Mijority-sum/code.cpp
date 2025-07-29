@@ -61,3 +61,29 @@ int main() {
 //          return -1;
 //     }
 // };
+
+// class Solution {
+// public:
+//     int majorityElement(vector<int>nums) {
+//         int n= nums.size();
+//         //  sort
+//         sort(nums.begin(), nums.end());
+
+//         // freq
+//         int freq = 1, ans = nums[0];
+//         for(int i=0 ; i<n ; i++){
+//             if(nums[1] == nums[i-1]){
+//                 freq++;
+//             }
+//             else{
+//                 freq = 1;
+//                 ans = nums[1];
+//             }
+//             if(freq > n/2){
+//                 return ans;
+//             }
+           
+//         }
+//         return ans; 
+//     }
+// };
